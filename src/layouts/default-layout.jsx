@@ -7,9 +7,9 @@ const Layout = () => {
   return (
     <ClerkProvider
       navigate={navigate}
-      publishableKey={import.meta.env.VITE_CLERK_PUBLISHABLE_KEY}
       afterSignInUrl='/dashboard'
       afterSignUpUrl='/dashboard'
+      publishableKey={import.meta.env.VITE_CLERK_PUBLISHABLE_KEY}
     >
       <header>
         <p>netlify-react-clerk</p>
